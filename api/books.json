@@ -1,0 +1,73 @@
+{
+  "book":[
+    {
+	"id": 1,
+	"author":"Lewis Carroll",
+	"title": "Alice in Wonderland",
+	"description":"In this book, there are stories about Alice's two unusual journeys - to Wonderland and Through the Looking Glass. They are full of amazing creatures and unexpected twists, funny nonsense and jokes, puns and subtle puns. Now the stories about the adventures of Alice can be read in the original and without a dictionary, without missing a single joke and understanding even the 'untranslatable' word game! After each English paragraph you will find a short dictionary with the necessary words and comments on the translation of complex grammatical constructions. Transcription is given to words that cause difficulties in reading. The text is provided with comments in Russian. At the end, a short grammar guide is given.",
+	"publisher": "Eksmo"
+},
+{
+	"id": 2,
+	"author":"Douglas Adams",
+	"title": "The Hitchhiker's Guide to the Galaxy",
+	"description":"Want to ruin an interplanetary supercorporation, to learn that God bequeathed to the world He created, and whether Earth should be considered a planet, harmless in general - or only in general? Read the masterpiece of Douglas Adams - and you will learn not only this, but also something else!",
+	"publisher": "AST"
+},
+{
+	"id": 3,
+	"author":"Alan Alexander Milne, Boris Zakhoder",
+	"title": "Winnie the Pooh and all-all-all",
+	"description":"'Winnie the Pooh and all-all-all.' One of the most charming fairy tales in the history of world literature. Funny and charming story of a bear-poet and his friends who live in the mysterious Enchanted Forest.",
+	"publisher": "AST"
+},
+{
+	"id": 4,
+	"author":"John Ronald Rowel Tolkien",
+	"title": "The Lord of the Rings",
+	"description":"The trilogy of John Ronald Rowel Tolkien `Lord of the Rings` - brilliant masterpieces of literature, which brought the author worldwide fame. Created by him the fabulous world of Middle-earth inhabited by people, hobbits, elves, gnomes, orcs and other mythological creatures, impresses with its scale and multilayeredness. Trilogy is considered to be the best fantasy of all time.",
+	"publisher": "Yauza, Eksmo-Press"
+},
+{
+	"id": 5,
+	"author":"Leo Tolstoy, Alexander Melikhov",
+	"title": "War and Peace",
+	"description":"On the eve of the 200th anniversary of the Patriotic War of 1812, the publishing house 'Fiction' reprints the immortal novel 'War and Peace' by Leo Tolstoy. We hope that the re-release will be warmly greeted by both old admirers of the work of our great compatriot, and those who will discover this work for the first time. ",
+	"publisher": "Fiction"
+},
+{
+	"id": 6,
+	"author":"Stephen King",
+	"title": "The Green Mile",
+	"description":"Stephen King invites readers to the eerie world of the prison suicide bomber, from where they leave, so as not to return, opens the door to the last refuge of those who have transgressed not only the human, but God's law.",
+	"publisher": "AST, Astrel, CGT, Neoclassic"
+},
+{
+	"id": 7,
+	"author":"Mario Puzo",
+	"title": "The Godfather",
+	"description":"The history of the mafia clan of Don Corleone is developing rapidly in the famous gangster novel Mario Puzo. The screen version of F. Ford Coppola with Marlon Brando and Al Pacino received three Oscar awards, 19 different cinematographic awards, 17 nominations and became an absolute masterpiece. Are you ready to penetrate the heart of the mafia?",
+	"publisher": "Eksmo"
+},
+{
+	"id": 8,
+	"author":"Herman Melville",
+	"title": "Moby Dick, or White Whale",
+	"description":"'Moby Dick' Herman Melville is considered the greatest American novel of the XIX century. In the center of this unique, written contrary to the laws of the genre works - the pursuit of the White Whale. A fascinating plot, epic marine paintings, descriptions of bright human characters in a harmonious combination with the most universal philosophical generalizations make this book a true masterpiece of world literature. Comments I. Bernstein.",
+	"publisher": "ABC-Atticus, ABC"
+},
+{
+	"id": 9,
+	"author":"Aldous Leonard Huxley",
+	"title": "Brave New World",
+	"description":"'Brave New World' is an exquisite and witty anti-utopia about a genetically programmable consumer society, in which the tragic history of the Savage - 'Hamlet' of this world unfolds ...",
+	"publisher": "AST, AST Moscow, VKT, Neoclassic"
+},
+{
+	"id": 10,
+	"author":"Stephen King",
+	"title": "It",
+	"description":"In a small provincial town of Derry many years ago, seven teenagers had to face a total horror - a living embodiment of hell.",
+	"publisher": "AST"
+}]
+}
