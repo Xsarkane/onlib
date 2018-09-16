@@ -2,41 +2,36 @@ var fs = require('fs');
 var express = require('express');
 var app = express();
 
-
-var books = fs.readFileSync('C:\\Users\\nikk2\\WebstormProjects\\online-library\\api\\books.json',function (err, book) {
+// Читаем массив из файла books.json
+var books = fs.readFileSync('C:\\Users\\nikk2\\WebstormProjects\\online-library\\onlib\\api\\books.json',function (err) {
     if (err) throw err;
-    console.log(book.toString());
 });
 
+// Отправляю GET запрос для проверки работы API
 app.get('/', function(req,res){
 res.send('Api works!');
 });
 
+//Отправляю GET запрос для отображения всех книг
 app.get('/api/books', function (req,res) {
-    res.send(books)
+    res.send(JSON.parse(books))
 });
 
-app.get('/api/books/:id',function (req, res) {
-    res.JSON.parse(book);
-});
-
-/*app.get('/api/book/:id', function (req, res) {
-console.log(req.params);
-var books = books.find(function (books) {
-    return books.id === Number (req.params.id);
-});
-    res.send(books);
-});*/
-
-/*app.get('/api/book/:id',function(req,res){
-    var i;
-    for(i=0;i<books;++i)
-    {
-        if (req.param().id === books[i].id) {
-    res.send(books[i]);
-}
+//Отправляю GET запрос для поиска книг по id
+app.get('/api/book/:id',function (req, res) {
+    var id = req.params.id;
+    var flag = false;
+    for (var i = 0; i < books.lenght; i++)
+        if (books[i].id === id){
+        res.send(JSON.parse(books[i]));
+        flag = true;
+        break
     }
-});*/
+    if (!flag){
+        res.send('Cannot find book with this id')
+    }
+});
 
+// Располагаю сервер на 8080 порту
 app.listen(8080);
 console.log("Server run on 8080");
